@@ -1,39 +1,35 @@
-# Basics
-## New
-``` cs
-byte days = 365; //сколько дней в году
-int hours = 24; // часов в дне
-bool isDone = yes;
+# solvepoly
+Полином третьей степени.
+Программа принимает три коэффициента
+Возвращает 2 корня.
 
-short rpm = 33;
 
-short y = 10000;
 
-string months = "12";
-
-int lUnderTheSea = 20000;
+``` cmd
+> solvepoly 1 -1 -1
+1.6180
+-0.6180
 ```
+ Также программа имеет в качестве входного параметра ключ `-v`. 
+ 
+ Вывод при этом должен выглядить так:
 
-``` csharp
-public class Form1
-{
-    int startingMileage;
-    int endingMileage;
-    double milesTraveled;
-    double reimburseRate = .39;
-    double amountOwed;
-
-    private void Compute(){
-        startingMileage = System.Console.ReadLine();
-        endingMileage = System.Console.ReadLine();
-        if (startingMileage <= endingMileage){
-            milesTraveled = endingMileage -= startingMileage;
-            amountOwed = milesTraveled *= reimburseRate;
-            Console.WriteLine(“$” + amountOwed);
-        } else {
-            System.Console.WritrLine(“The starting mileage must be less than
-            the ending mileage, Cannot Calculate Mileage”);
-        } 
-    }
-}
+``` cmd
+> solvepoly -v 1 -1 -1
+*** Input ***
+Polynom of degree 2
+x^2-x-1=0
+*** Solution ***
+Solving by quadratic formula:
+Discriminant:
+    D = b^2-4ac
+    D = (-1)^2-4*(1)*(-1) = 5
+Roots:
+    D > 0, must be 2 roots
+    x1,2 = (-b±√D)/(2a)
+    x1 = (1+√5)/(2*1) = 1.6180
+    x2 = (1-√5)/(2*1) = -0.6180
+*** Results ***
+1.6180
+-0.6180
 ```
