@@ -1,0 +1,7 @@
+I:\code\rm\solvepoly\solvepoly\obj\Debug\solvepoly.csprojResolveAssemblyReference.cache
+I:\code\rm\solvepoly\solvepoly\obj\Debug\solvepoly.csproj.CoreCompileInputs.cache
+I:\code\rm\solvepoly\solvepoly\bin\Debug\solvepoly.exe.config
+I:\code\rm\solvepoly\solvepoly\bin\Debug\solvepoly.exe
+I:\code\rm\solvepoly\solvepoly\bin\Debug\solvepoly.pdb
+I:\code\rm\solvepoly\solvepoly\obj\Debug\solvepoly.exe
+I:\code\rm\solvepoly\solvepoly\obj\Debug\solvepoly.pdb
